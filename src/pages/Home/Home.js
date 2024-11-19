@@ -46,7 +46,7 @@ const Home = () => {
                     borderRadius: '5px',
                     cursor: 'pointer',
                 }}
-                onClick={() => window.location.href = '/projects'}
+                onClick={() => window.location.href = '#/projects'}
             >
                 Voir mes projets
             </motion.button>
