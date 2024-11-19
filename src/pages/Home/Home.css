@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .container {
+      display: block !important; /* Les sections seront affichées l'une sous l'autre */
+    }
+  
+    .about-section,
+    .skills-section {
+      margin-bottom: 20px !important; /* Espace entre les sections en version mobile */
+    }
+  }

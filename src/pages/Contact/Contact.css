@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .reseau ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px !important; /* espace entre les icônes */
+    }
+  
+    ul li {
+      margin-bottom: 0px; /* espace entre chaque élément */
+    }
+  }
