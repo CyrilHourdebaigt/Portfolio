@@ -50,8 +50,8 @@ const Projects = () => {
       },
       {
         id: 5,
-        title: 'Préfecture',
-        description: 'Application pour un service du subvention. Cette application permet d’afficher des statistiques à travers des tableaux et des graphiques. Utilisation de React et de Chart.js',
+        title: 'Préfecture des Pyrénées-Atlantiques',
+        description: 'Application statistiques pour le bureau du développement territorial et des finances locales. Cette application permet d’afficher des statistiques internes à travers des tableaux et des graphiques. Utilisation de React et de Chart.js',
         image: ProjectImage5,
         modalImage: ProjectImage10,
       },
