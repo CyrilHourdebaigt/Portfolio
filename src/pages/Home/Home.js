@@ -2,6 +2,7 @@ import React from 'react';
 import ProfileImage from '../../assets/images/profil.JPEG';
 import CVFile from '../../assets/documents/CV.pdf';
 import {motion } from 'framer-motion';
+import { Typewriter } from 'react-simple-typewriter';
 import Skills from '../../components/Skills';
 import './Home.css';
 
@@ -11,7 +12,6 @@ const Home = () => {
             style={{
                 padding: '20px',
                 textAlign: 'center',
-                
                 color: 'white',
                 marginBottom: '0px',
             }}
@@ -78,10 +78,16 @@ const Home = () => {
                 >
                     <h2>À propos de moi</h2>
                     <p>
-                    Bonjour, je m'appelle Cyril Hourdebaigt et je suis développeur web. J'ai suivi une formation en développement web, au cours de laquelle j'ai travaillé sur divers projets utilisant React, Node.js, et d'autres technologies modernes. J'ai eu la chance de suivre cette formation en alternance au sein d'une préfecture pour le ministère de l'Intérieur, ce qui m'a permis de gagner une précieuse expérience professionnelle. Cela m'a appris à collaborer efficacement au sein d'une équipe tout en menant des missions de manière autonome.
-                    </p>
-                    <p>
-                        Passionné par la création d'interfaces utilisateur dynamiques et intuitives, j'aime relever des défis techniques et trouver des solutions élégantes.
+                    <Typewriter
+                        words={[
+                        "Bonjour, je m'appelle Cyril Hourdebaigt et je suis développeur web. J'ai suivi une formation en développement web, au cours de laquelle j'ai travaillé sur divers projets utilisant React, Node.js, et d'autres technologies modernes. J'ai eu la chance de suivre cette formation en alternance au sein d'une préfecture pour le ministère de l'Intérieur, ce qui m'a permis de gagner une précieuse expérience professionnelle. Cela m'a appris à collaborer efficacement au sein d'une équipe tout en menant des missions de manière autonome.",
+                        ]}
+                        loop={1}
+                        cursor
+                        cursorStyle="|"
+                        typeSpeed={40}
+                        delaySpeed={1000}
+                    />
                     </p>
                     <div style={{ textAlign: 'center', marginTop: '20px' }}>
                         <a
