@@ -8,12 +8,8 @@
       padding: 10px !important;
     }
 
-    .skills-section {
-      
-    }
-
     .about-section,
     .skills-section {
-      margin-bottom: 20px !important; /* Espace entre les sections en version mobile */
+      margin-bottom: 20px !important;
     }
   }

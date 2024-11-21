@@ -29,7 +29,7 @@ const Skills = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '20px', padding: '0px', width: '100%', justifyContent: 'center',  }}>
             {skillsData.map((category, index) => (
-                <div key={index} style={{ textAlign: 'center', padding: '0px', background: '#e0e0e0', borderRadius: '10px' }}>
+                <div key={index} style={{ textAlign: 'center', padding: '0px', background: '#F7F7F7', borderRadius: '10px' }}>
                     <h3 style={{ marginBottom: '10px', padding: '0px 10px', color: '#000', fontWeight: 'bold' }}>{category.category}</h3>
                     <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', padding: '10px' }}>
                         {category.skills.map((skill, skillIndex) => (

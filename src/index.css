@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto Flex', sans-serif;
-  background-color: #f0f0f0;
+  background: linear-gradient(to right, #e9eff3, #a8a8a8);
   margin: 0;
   padding: 0;
 }

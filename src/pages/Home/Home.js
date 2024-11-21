@@ -9,11 +9,11 @@ const Home = () => {
     return (
         <motion.div
             style={{
-                padding: '40px',
+                padding: '20px',
                 textAlign: 'center',
-                background: 'linear-gradient(to right, #e9eff3, #a8a8a8)',
+                
                 color: 'white',
-                marginBottom: '20px',
+                marginBottom: '0px',
             }}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
