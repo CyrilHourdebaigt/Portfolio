@@ -4,7 +4,7 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div style={{ padding: '20px' }}>
+        <div className="contact">
             <h1>Contactez-moi</h1>
             <p>
                 Vous souhaitez me contacter pour un projet ou une opportunité professionnelle ? <br></br>N'hésitez pas à m'envoyer un message !
