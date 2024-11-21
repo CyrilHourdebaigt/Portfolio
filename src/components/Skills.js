@@ -17,21 +17,21 @@ const Skills = () => {
         { category: 'Bibliothèques', skills: [
             { name: 'Styled Components', icon: <SiStyledcomponents size="40" color="#db7093" /> },
         ]},
-        { category: 'Bases de Données', skills: [
+        { category: ' Bases de Données ', skills: [
             { name: 'MongoDB', icon: <SiMongodb size="40" color="#4DB33D" /> },
         ]},
-        { category: 'Outils / Concepts', skills: [
+        { category: 'Outils', skills: [
             { name: 'JWT', icon: <FaKey size="40" color="#000000" /> },
             { name: 'API REST', icon: <FaNetworkWired size="40" color="#5A29E4" /> },
         ]},
     ];
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', padding: '0px' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '20px', padding: '0px', width: '100%', justifyContent: 'center',  }}>
             {skillsData.map((category, index) => (
-                <div key={index} style={{ textAlign: 'center', padding: '0px', background: '#e0e0e0', borderRadius: '10px', width:'auto' }}>
-                    <h3 style={{ marginBottom: '10px', color: '#000', fontWeight: 'bold' }}>{category.category}</h3>
-                    <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', padding: '10px' }}>
+                <div key={index} style={{ textAlign: 'center', padding: '0px', background: '#e0e0e0', borderRadius: '10px' }}>
+                    <h3 style={{ marginBottom: '10px', padding: '0px 10px', color: '#000', fontWeight: 'bold' }}>{category.category}</h3>
+                    <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', padding: '10px' }}>
                         {category.skills.map((skill, skillIndex) => (
                             <div key={skillIndex} style={{ textAlign: 'center' }}>
                                 {skill.icon}

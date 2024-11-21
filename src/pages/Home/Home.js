@@ -83,22 +83,23 @@ const Home = () => {
                     <p>
                         Passionné par la création d'interfaces utilisateur dynamiques et intuitives, j'aime relever des défis techniques et trouver des solutions élégantes.
                     </p>
-                    <a
+                    <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                        <a
                         href={CVFile}
                         download="CV.pdf"
                         style={{
-                        display: 'inline-block',
-                        padding: '10px 20px',
-                        color: '#fff',
-                        backgroundColor: '#ff5722',
-                        borderRadius: '5px',
-                        textDecoration: 'none',
-                        fontWeight: 'bold',
-                        marginTop: '20px'
+                            display: 'inline-block',
+                            padding: '10px 20px',
+                            color: '#fff',
+                            backgroundColor: '#ff5722',
+                            borderRadius: '5px',
+                            textDecoration: 'none',
+                            fontWeight: 'bold',
                         }}
-                    >
+                        >
                         Télécharger mon CV
-                    </a>
+                        </a>
+                    </div>
                 </motion.section>
 
                 <motion.div
@@ -107,7 +108,7 @@ const Home = () => {
                     transition={{ delay: 1, duration: 1.5 }}
                     style={{ flex: 1, }}
                 >
-                    <Skills />
+                    < Skills />
                 </motion.div>
             </div>
         </motion.div>
