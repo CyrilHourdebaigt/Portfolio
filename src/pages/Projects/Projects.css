@@ -67,7 +67,7 @@ h1 {
     padding: 20px;
     width: 90%; /* Augmente la largeur pour occuper plus d'espace */
     max-width: 800px; /* Augmente la largeur maximale de la modale */
-    height: 60%;
+    height: 80%;
     border-radius: 10px;
     position: relative;
     text-align: center;

@@ -80,7 +80,7 @@ const Home = () => {
                     <p>
                     <Typewriter
                         words={[
-                        "Bonjour, je m'appelle Cyril Hourdebaigt et je suis développeur web. J'ai suivi une formation en développement web, au cours de laquelle j'ai travaillé sur divers projets utilisant React, Node.js, et d'autres technologies modernes. J'ai eu la chance de suivre cette formation en alternance au sein d'une préfecture pour le ministère de l'Intérieur, ce qui m'a permis de gagner une précieuse expérience professionnelle. Cela m'a appris à collaborer efficacement au sein d'une équipe tout en menant des missions de manière autonome.",
+                        "Bonjour, je m'appelle Cyril Hourdebaigt et je suis développeur web. J'ai suivi une formation en développement web avec OpenClassrooms, au cours de laquelle j'ai travaillé sur divers projets utilisant HTML, CSS, Javascript, React, Node.js, Express et d'autres technologies modernes. J'ai eu la chance de suivre cette formation en alternance au sein d'une préfecture pour le ministère de l'Intérieur, ce qui m'a permis de gagner une précieuse expérience professionnelle. Cela m'a appris à collaborer efficacement au sein d'une équipe tout en menant des missions de manière autonome.",
                         ]}
                         loop={1}
                         cursor
